@@ -2117,7 +2117,7 @@ class PlayState extends MusicBeatState
 		super.update(elapsed);
 
 		if(ratingString == '?') {
-			scoreTxt.text = 'Score: ' + songScore + ' //  Misses: ' + songMisses + ' // Rank: ' + ratingString;
+			scoreTxt.text = 'Score: ' + songScore + ' // Port by NT846 // Misses: ' + songMisses + ' // Rank: ' + ratingString;
 			judgementCounter.text = 'Sicks: 0 \nGoods: 0\nBads: 0\nShits: 0\ne';
                         healthCounter.text = 'Health: 50%';
 		} else {
